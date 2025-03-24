@@ -61,8 +61,8 @@ section h2 {
   gap: 1em;
 }
 .testimonial img {
-  max-width: 60px;
-  max-height: 30px;
+  max-width: 30x;
+  max-height: 10px;
   width: auto;
   height: auto;
   object-fit: contain;
