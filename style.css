@@ -147,3 +147,7 @@ footer a {
   text-decoration: none;
   margin: 0 0.5em;
 }
+footer i {
+  margin-right: 0.4em;
+  color: #a6ddff;
+}
