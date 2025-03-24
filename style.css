@@ -49,8 +49,14 @@ header p {
   font-size: 1em;
   transition: color 0.3s ease;
 }
-.main-nav a:hover {
-  color: #82cfff;
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(135deg, #0f2027, #203a43);
+  padding: 1em 0;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .cv-btn {
@@ -167,12 +173,4 @@ footer a:hover i {
   color: #ffffff;
   transform: scale(1.2);
 }
-.main-nav {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background: linear-gradient(135deg, #0f2027, #203a43);
-  padding: 1em 0;
-  font-family: 'Poppins', sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
+
