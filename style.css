@@ -113,7 +113,7 @@ video {
   gap: 1.5em;
 }
 .testimonial {
-  background: #2b3e63;
+  background: #3c4e78;
   color: white;
   padding: 2.5em 2em 2em;
   border-left: 6px solid #4b6cb7;
@@ -129,12 +129,12 @@ video {
 .testimonial::before {
   content: "“";
   font-size: 4em;
-  color: #82cfff;
+  color: #a9cfff; /* brighter quote icon */
   position: absolute;
   top: 10px;
   left: 20px;
   font-family: serif;
-  opacity: 0.2;
+  opacity: 0.25;
 }
 
 .testimonial-logo {
