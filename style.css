@@ -113,12 +113,12 @@ video {
   gap: 1.5em;
 }
 .testimonial {
-  background: #1f2d3d;
+  background: #2b3e63;
   color: white;
   padding: 2.5em 2em 2em;
   border-left: 6px solid #4b6cb7;
   border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
   transition: transform 0.3s ease;
@@ -129,13 +129,14 @@ video {
 .testimonial::before {
   content: "“";
   font-size: 4em;
-  color: #4b6cb7;
+  color: #82cfff;
   position: absolute;
   top: 10px;
   left: 20px;
   font-family: serif;
   opacity: 0.2;
 }
+
 .testimonial-logo {
   width: 120px;
   height: auto;
