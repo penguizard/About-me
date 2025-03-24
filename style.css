@@ -113,15 +113,16 @@ video {
   gap: 1.5em;
 }
 .testimonial {
-  background: linear-gradient(135deg, #2c3e50, #34495e);
+  background: #1f2d3d; /* Strong dark blue/grey */
   color: white;
   padding: 2em;
   border-left: 6px solid #4b6cb7;
   border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
   transition: transform 0.3s ease;
 }
+
 .testimonial:hover {
   transform: translateY(-5px);
 }
