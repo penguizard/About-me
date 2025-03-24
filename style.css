@@ -18,11 +18,13 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #3a8fd8, #1c2e4a);
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: white;
   padding: 4em 1em;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
+
 header h1 {
   font-size: 2.5em;
   margin-bottom: 0.3em;
