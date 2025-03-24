@@ -62,7 +62,7 @@ section h2 {
 }
 .testimonial img {
   max-width: 100px;
-  max-height: 60px;
+  max-height: 40px;
   width: auto;
   height: auto;
   object-fit: contain;
