@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, #4b6cb7, #182848);
   color: white;
   padding: 4em 1em;
   text-align: center;
@@ -49,10 +49,19 @@ header p {
   padding: 0.6em 0;
   font-size: 0.95em;
 }
-
-
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2em;
+  font-weight: 600;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+.main-nav a:hover {
+  color: #82cfff;
+}
 .cv-btn {
-  background-color: #4b6cb7;
+  background-color: #ffffff22;
   color: white !important;
   padding: 0.4em 0.8em;
   border-radius: 5px;
@@ -60,7 +69,7 @@ header p {
   transition: background 0.3s ease;
 }
 .cv-btn:hover {
-  background-color: #3a589e;
+  background-color: #ffffff33;
 }
 
 /* Section Titles */
@@ -165,4 +174,3 @@ footer a:hover i {
   color: #ffffff;
   transform: scale(1.2);
 }
-
