@@ -12,6 +12,18 @@
   <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 
+<script>
+  window.addEventListener('scroll', function () {
+    const nav = document.querySelector('.main-nav');
+    if (window.scrollY > 40) {
+      nav.classList.add('shrink');
+    } else {
+      nav.classList.remove('shrink');
+    }
+  });
+</script>
+
+
 <body>
   <header>
     <h1>Michael Roper</h1>
