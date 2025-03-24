@@ -3,70 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Michael Roper – Portfolio</title>
+  <title>Michael Roper - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <header>
-    <h1>Your Name</h1>
-    <p>AV Producer | Broadcaster | Event Manager</p>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>AV Producer | Broadcaster | Event Manager</p>
+    </div>
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <div class="content-block">
-      <img src="images/your-photo.jpg" alt="Your Photo" class="profile-img"/>
-      <p>Hello! I'm a versatile and creative professional with 15+ years of experience in AV, broadcasting, and events. I bring ideas to life through storytelling, tech, and teamwork.</p>
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="images/your-photo.jpg" alt="Your Photo" class="profile-img">
+        <p>Hello! I'm a versatile and creative professional with 15+ years of experience in AV production, broadcasting, and event management. I bring ideas to life through storytelling, technology, and teamwork.</p>
+      </div>
     </div>
   </section>
 
   <section id="showreel">
-    <h2>Showreel</h2>
-    <video controls src="videos/showreel.mp4" width="100%"></video>
+    <div class="container">
+      <h2>Showreel</h2>
+      <video controls width="100%" poster="images/showreel-poster.jpg">
+        <source src="https://portfolio81.s3.eu-west-2.amazonaws.com/Michael+Roper_20250218_143549_0001.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </section>
-
+  
   <section id="testimonials">
-    <h2>What People Say</h2>
-    <div class="testimonial">
-      <p>"Absolutely brilliant to work with – calm under pressure, technically skilled, and always delivers on time." <br><strong>– Sarah P.</strong></p>
-    </div>
-    <div class="testimonial">
-      <p>"A creative problem-solver with a great eye for detail. I wouldn't hesitate to recommend him." <br><strong>– James W.</strong></p>
-    </div>
-    <div class="testimonial">
-      <p>"Always professional and enthusiastic. He brought real energy to our production team." <br><strong>– Laura T.</strong></p>
+    <div class="container">
+      <h2>What People Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <p>"Absolutely brilliant to work with – calm under pressure, technically skilled, and always delivers on time." <br><strong>– Sarah P.</strong></p>
+        </div>
+        <div class="testimonial">
+          <p>"A creative problem-solver with a great eye for detail. I wouldn't hesitate to recommend him." <br><strong>– James W.</strong></p>
+        </div>
+        <div class="testimonial">
+          <p>"Always professional and enthusiastic. He brought real energy to our production team." <br><strong>– Laura T.</strong></p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="projects">
-    <h2>My Work</h2>
-    <div class="project">
-      <img src="images/event1.jpg" alt="Project 1">
-      <h3>IFSC World Cup Broadcast</h3>
-      <p>Directed and produced live coverage of international climbing competitions.</p>
-    </div>
-    <div class="project">
-      <img src="images/event2.jpg" alt="Project 2">
-      <h3>Tech Expo 2024</h3>
-      <p>AV logistics and live streaming for a major 1,500-attendee tech conference.</p>
-    </div>
-    <div class="project">
-      <img src="images/event3.jpg" alt="Project 3">
-      <h3>Motion Graphics Reels</h3>
-      <p>Short promo edits and motion graphics for branded content.</p>
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="projects-container">
+        <div class="project">
+          <img src="images/event1.jpg" alt="IFSC World Cup Broadcast">
+          <h3>IFSC World Cup Broadcast</h3>
+          <p>Directed and produced live coverage of international climbing competitions.</p>
+        </div>
+        <div class="project">
+          <img src="images/event2.jpg" alt="Tech Expo 2024">
+          <h3>Tech Expo 2024</h3>
+          <p>Managed AV logistics and live streaming for a major 1,500-attendee tech conference.</p>
+        </div>
+        <div class="project">
+          <img src="images/event3.jpg" alt="Motion Graphics Reels">
+          <h3>Motion Graphics Reels</h3>
+          <p>Produced short promo edits and motion graphics for branded content.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <footer>
-    <p>Contact Me:</p>
-    <p>
-      <a href="mailto:your@email.com">Email</a> |
-      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> |
-      <a href="https://github.com/penguizard">GitHub</a>
-    </p>
+    <div class="container">
+      <p>Contact Me:</p>
+      <p>
+        <a href="mailto:your@email.com">Email</a> |
+        <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> |
+        <a href="https://github.com/penguizard">GitHub</a>
+      </p>
+    </div>
   </footer>
-
 </body>
 </html>
