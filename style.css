@@ -80,12 +80,13 @@ video {
   text-align: center;
 }
 .testimonial-logo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: auto;
+  height: 50px;
+  max-width: 150px;
+  border-radius: 6px;
+  object-fit: contain;
   display: block;
-  margin: 0 auto 1em;
+  margin: 1em auto 0;
 }
 
 /* Projects */
