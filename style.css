@@ -112,7 +112,7 @@ video {
   display: grid;
   gap: 1.5em;
 }
-..testimonial {
+.testimonial {
   background: linear-gradient(145deg, #ffffff, #e1eaff);
   padding: 2em;
   border-left: 6px solid #4b6cb7;
