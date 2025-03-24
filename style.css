@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #f5f7fa;
+  background: linear-gradient(to bottom, #f5f7fa, #e3ecf7);
   color: #2c3e50;
   line-height: 1.6;
 }
@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #4b6cb7, #182848);
+  background: linear-gradient(135deg, #3a8fd8, #1c2e4a);
   color: white;
   padding: 4em 1em;
   text-align: center;
@@ -29,15 +29,25 @@ header h1 {
 }
 header p {
   font-size: 1.2em;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 /* Section Titles */
 h2 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 1em;
   text-align: center;
-  color: #34495e;
+  color: #2b4d70;
+  position: relative;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin: 0.5em auto 0;
+  background: linear-gradient(to right, #3a8fd8, #1c2e4a);
+  border-radius: 2px;
 }
 
 /* About Section */
@@ -75,9 +85,15 @@ video {
 .testimonial {
   background: white;
   padding: 1.5em;
+  border-radius: 12px;
   border-left: 4px solid #4b6cb7;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 .testimonial-logo {
   width: auto;
@@ -97,9 +113,14 @@ video {
 }
 .project {
   background: white;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 .project img {
   width: 100%;
@@ -116,13 +137,13 @@ video {
 
 /* Footer */
 footer {
-  background: #182848;
+  background: linear-gradient(135deg, #1c2e4a, #3a8fd8);
   color: white;
   text-align: center;
   padding: 2em 1em;
 }
 footer a {
-  color: #82cfff;
+  color: #a6ddff;
   text-decoration: none;
   margin: 0 0.5em;
 }
