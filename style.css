@@ -112,13 +112,19 @@ video {
   display: grid;
   gap: 1.5em;
 }
-.testimonial {
-  background: white;
-  padding: 1.5em;
-  border-left: 4px solid #4b6cb7;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+..testimonial {
+  background: linear-gradient(145deg, #ffffff, #e1eaff);
+  padding: 2em;
+  border-left: 6px solid #4b6cb7;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s ease;
 }
+.testimonial:hover {
+  transform: translateY(-5px);
+}
+
 .testimonial-logo {
   width: 120px;
   height: auto;
